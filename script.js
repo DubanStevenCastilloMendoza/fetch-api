@@ -5,12 +5,12 @@ fetch(url)
 .then((data) =>{
     data.json()
     .then((json)=>{
-        console.log(json)
-        alert(json.name)
-    })
-    .catch((error)=>{
-        console.log(error)
-    })
+         console.log(json)
+         alert(json.name)
+     })
+     .catch((error)=>{
+         console.log(error)
+     })
 })
 .catch((error)=>{
     console.log(error)
